@@ -1,5 +1,4 @@
 ---
-layout: default
 modal-id: 2
 img: cake.png
 alt: image-alt

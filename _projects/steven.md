@@ -1,5 +1,4 @@
 ---
-layout: default
 title: Steven
 modal-id: 1
 img: cabin.png
