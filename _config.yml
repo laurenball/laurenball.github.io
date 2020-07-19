@@ -26,12 +26,6 @@ footer:
   location: Location
   social: Around the Web
 
-social:
-  - title: github
-    url: https://github.com/laurenball
-  - title: linkedin
-    url: https://www.linkedin.com/in/lauren-ball/
-
 # Credits content
 credits: 'Theme foundation by <a href="http://startbootstrap.com">Start Bootstrap</a>'
 
