@@ -69,3 +69,11 @@ defaults:
       type: "posts"
     values:
       permalink: ""
+
+plugins:
+  - jekyll-data
+  - jekyll-gist
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jemoji
