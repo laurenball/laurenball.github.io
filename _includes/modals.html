@@ -19,26 +19,13 @@
                                 <p>{{ project.description }}</p>
                             {% endif %}
                             <ul class="list-inline item-details">
-                                {% if project.client %}
-                                    <li>Client:
-                                        <strong><a href="http://startbootstrap.com">{{ project.client }}</a>
-                                        </strong>
-                                    </li>
-                                {% endif %}
-                                {% if project.project-date %}
-                                    <li>Date:
-                                        <strong><a href="http://startbootstrap.com">{{ project.project-date }}</a>
-                                        </strong>
-                                    </li>
-                                {% endif %}
-                                {% if project.category %}
-                                    <li>Service:
-                                        <strong><a href="http://startbootstrap.com">{{ project.category }}</a>
+                                {% if project.source_host_url %}
+                                    <li>Check it out:
+                                      <strong><a href="{{project.source_host_url}}">{{ project.source_host }}</a>
                                         </strong>
                                     </li>
                                 {% endif %}
                             </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
                     </div>
                 </div>
