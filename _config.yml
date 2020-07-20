@@ -19,7 +19,6 @@ collections:
 # Color settings (hex-codes without the leading hash-tag)
 color:
   primary: 62486e
-  primary-rgb: "24,288,156"
   secondary: a3a469
   secondary-dark: 7c7347
 
