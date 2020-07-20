@@ -1,6 +1,6 @@
 ---
 modal-id: 2
-img: cake.png
+img: soft-diner.png
 alt: image-alt
 title: Soft Diner Syntax
 source-host: Atom.io

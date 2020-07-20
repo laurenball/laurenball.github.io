@@ -1,7 +1,7 @@
 ---
 title: Steven
 modal-id: 1
-img: cabin.png
+img: steven.png
 title: Steven
 source-host: Github
 source-host-url: https://github.com/laurenball/Steven
