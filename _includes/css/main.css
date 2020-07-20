@@ -31,7 +31,8 @@ a:hover,
 a:focus,
 a:active,
 a.active {
-    color: white;
+    outline: 0;
+    color: #{{ site.color.primary }};
 }
 
 h1,
@@ -75,7 +76,7 @@ hr.line-light:after {
 }
 
 hr.line-primary {
-    border-color: #{{ site.color.secondary }};
+    border-color: #{{ site.color.primary }};
 }
 
 hr.line-primary:after {
@@ -187,8 +188,11 @@ section h2 {
 }
 
 section.success {
-    color: #fff;
-    background: #{{ site.color.primary }};
+  color: #{{ site.color.primary }};
+}
+
+section#contact {
+  color: #{{ site.color.primary }};
 }
 
 @media(max-width:767px) {
@@ -250,6 +254,11 @@ section.success {
 
 #portfolio * {
     z-index: 2;
+}
+
+section#portfolio {
+  color: #fff;
+  background: #{{ site.color.primary }};
 }
 
 @media(min-width:767px) {
