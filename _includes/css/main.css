@@ -25,6 +25,15 @@ a.active {
     color: #{{ site.color.primary }};
 }
 
+
+#about a,
+a:hover,
+a:focus,
+a:active,
+a.active {
+    color: white;
+}
+
 h1,
 h2,
 h3,
@@ -101,7 +110,7 @@ header .intro-text .name {
     font-weight: 700;
 }
 
-header .intro-text .skills {
+header .intro-text .subtitle {
     font-size: 1.25em;
     font-weight: 300;
 }
@@ -116,7 +125,7 @@ header .intro-text .skills {
         font-size: 4.75em;
     }
 
-    header .intro-text .skills {
+    header .intro-text .subtitle {
         font-size: 1.75em;
     }
 }
