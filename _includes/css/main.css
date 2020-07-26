@@ -194,6 +194,14 @@ section.light {
   margin: 50px;
 }
 
+.panel  {
+  color: #{{ site.color.primary }};
+}
+
+.panel .panel-heading {
+  color: white;
+  background-color: #{{ site.color.primary }};
+}
 
 @media(max-width:767px) {
     section {

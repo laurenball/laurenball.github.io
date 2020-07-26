@@ -23,4 +23,3 @@ Things to do:
 - The projects section needs to be wrapped up. There are only two projects listed, and the images for them are not great
 - General fleshing out of ideas. I have a pretty hard time talking unprompted, and that's really what the big issue is here.
   I'll keep finding excuses to not write posts until the site is 'perfect', which isn't going to make for a very interesting or good site
-
