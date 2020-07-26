@@ -190,6 +190,10 @@ section.light {
   color: #{{ site.color.primary }};
 }
 
+#blog {
+  margin: 50px;
+}
+
 
 @media(max-width:767px) {
     section {
