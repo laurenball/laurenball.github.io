@@ -383,7 +383,14 @@ footer .footer-col {
 
 footer .footer-below {
     padding: 25px 0;
+    position: absolute;
+    overflow: hidden;
+    width: 100%;
     background-color: #{{ site.color.secondary-dark }};
+}
+
+html{
+  min-height: 100%;
 }
 
 .btn-social {
