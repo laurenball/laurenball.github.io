@@ -190,7 +190,7 @@ section.light {
   color: #{{ site.color.primary }};
 }
 
-#blog {
+.standalone-content {
   margin: 50px;
 }
 
