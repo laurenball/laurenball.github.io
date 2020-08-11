@@ -1,5 +1,6 @@
 ---
 title: A Little Less Hyde
+tags: jekyll bootstrap
 ---
 
 The theme for this site is a clone of [this wonderful theme by start bootstrap](https://github.com/jeromelachaud/freelancer-theme)
