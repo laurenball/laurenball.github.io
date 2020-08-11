@@ -42,6 +42,11 @@ defaults:
       type: "projects"
     values:
       permalink: ""
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
 
 plugins:
   - jekyll-data
