@@ -380,19 +380,6 @@ footer {
     color: #fff;
 }
 
-footer h3 {
-    margin-bottom: 30px;
-}
-
-footer .footer-above {
-    padding-top: 50px;
-    background-color: #{{ site.color.secondary }};
-}
-
-footer .footer-col {
-    margin-bottom: 50px;
-}
-
 footer .footer-below {
     padding: 25px 0;
     position: absolute;
@@ -403,6 +390,16 @@ footer .footer-below {
 
 html{
   min-height: 100%;
+}
+
+section.socials {
+  color: #fff;
+  padding-top: 50px;
+  background-color: #{{ site.color.secondary }};
+}
+
+section.socials h3 {
+  margin-bottom: 30px;
 }
 
 .btn-social {
