@@ -455,6 +455,7 @@ section.socials h3 {
 .portfolio-modal .modal-content h2 {
   margin: 0;
   font-size: 3em;
+  color: #{{ site.color.primary }};
 }
 
 .portfolio-modal .modal-content img {
