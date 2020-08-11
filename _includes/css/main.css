@@ -200,8 +200,9 @@ section.light {
   color: #{{ site.color.primary }};
 }
 
-.standalone-content {
+.post {
   margin: 50px;
+  color: #{{ site.color.primary }};
 }
 
 .panel  {
