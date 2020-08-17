@@ -7,7 +7,15 @@ layout: default
     <div class='row'>
       {% for post in site.posts %}
         <div class="panel panel-default">
-          <div class="panel-heading panel-title">{{ post.title }}</div>
+          <div class="panel-heading panel-title">
+            <div class='panel-title'>
+              {{ post.title }}
+            </div>
+            <br>
+            <div>
+              {{ post.date || date_to_long_string }}
+            </div>
+          </div>
           <div class="panel-body">
             <p>{{ post.excerpt }}</p>
             <a href="{{ post.url }}" class="btn btn-primary">View Post</a>
