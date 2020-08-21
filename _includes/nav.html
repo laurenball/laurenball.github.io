@@ -1,39 +1,36 @@
-   <!-- Navigation -->
-    <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="/index.html">{{ site.title }}</a>
-            </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="hidden">
-                        <a href="#page-top"></a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="/index#about">About</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="/index#portfolio">Projects</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="/index#contact">Contact</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="/blog">Blog</a>
-                    </li>
-                    <li><a target='_blank' href="/assets/resume.pdf">Resume</a></li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container-fluid -->
-    </nav>
+<div uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; bottom: #transparent-sticky-navbar">
+  <nav class="uk-navbar-container" uk-navbar='dropbar: true; delay-hide: 100;'>
+    <div class="uk-navbar-left">
+      <ul class="uk-navbar-nav">
+        <li class="uk-active">
+          <a href="#" uk-scroll>Lauren Ball</a>
+        </li>
+      </ul>
+    </div>
+    <div class="uk-navbar-right">
+      <ul class="uk-navbar-nav uk-visible@m">
+        <li class="hidden"><a href="#page-top"></a></li>
+        <li><a href="/index#about" uk-scroll>About</a></li>
+        <li><a href="/index#portfolio" uk-scroll>Projects</a></li>
+        <li><a href="/index#contact" uk-scroll>Contact</a></li>
+        <li><a href="/blog">Blog</a></li>
+        <li><a target='_blank' href="/assets/resume.pdf">Resume</a></li>
+      </ul>
+      <ul class="uk-navbar-nav uk-hidden@m uk-iconnav">
+        <li>
+          <a href="" uk-icon="icon: heart; ratio: 1.5;"></a>
+          <div class='uk-navbar-dropdown'>
+            <ul class='uk-nav uk-navbar-dropdown-nav'>
+              <li><a href="/index#about" uk-scroll>About</a></li>
+              <li><a href="/index#portfolio" uk-scroll>Projects</a></li>
+              <li><a href="/index#contact" uk-scroll>Contact</a></li>
+              <li><a href="/blog">Blog</a></li>
+              <li class="uk-nav-divider"></li>
+              <li><a target='_blank' href="/assets/resume.pdf">Resume</a></li>
+            </ul>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</div>
