@@ -1,18 +1,18 @@
-<section class="text-center socials">
-  <div class="container">
-    <div class="row">
-      <div class="footer-col col-md-4 col-md-offset-4">
-        <h3>{{ site.footer.social }}</h3>
-        <ul class="list-inline">
-          {% for network in site.data.social %}
-            <li>
-              <a href="{{ network.url }}" class="btn-social btn-outline">
-                <i class="fa fa-fw fa-{{ network.icon_class }}"></i>
-              </a>
-            </li>
-          {% endfor %}
-        </ul>
-      </div>
-    </div>
+<section class="uk-section uk-section-muted uk-section-large">
+  <div class="uk-container">
+    <h3 class='uk-flex uk-flex-center'>
+      {{ site.footer.social }}
+    </h3>
+
+    <hr class="uk-divider-icon">
+
+    <ul class="uk-iconnav uk-flex uk-flex-center">
+      {% for network in site.data.social %}
+        <li>
+          <a href="{{ network.url }}" uk-icon="icon: {{ network.icon_class }}; ratio: 1.5;">
+          </a>
+        </li>
+      {% endfor %}
+    </ul>
   </div>
 </section>
