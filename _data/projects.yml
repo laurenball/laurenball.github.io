@@ -1,11 +1,11 @@
 - title: Steven
-  source: https://github.com/laurenball/Steven
+  github: https://github.com/laurenball/Steven
   description: The perfect discord bot for anyone in need of a yes-man.
     Steven is a lightweight discord bot whose primary function is semi-random affirmation for configured users.
 - title: Soft Diner Syntax
-  source: https://github.com/laurenball/soft-diner
+  github: https://github.com/laurenball/soft-diner
   description: Atom dark syntax theme with a hazy neon vibe
 - title: laurenball.dev
-  source: https://github.com/laurenball/laurenball.github.io
+  github: https://github.com/laurenball/laurenball.github.io
   description: Jekyll & UIKit based personal portfolio site and blog.
     You may have been there before. It's more likely than you think!
