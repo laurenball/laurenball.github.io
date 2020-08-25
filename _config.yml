@@ -7,29 +7,9 @@ keywords: ""
 subtitle: Internet Head-Scratcher
 meta_author: Ball Lauren
 
-# Contact form:
-# - static : pass through formspree.io to validate email sending
-# - disqus : replace contact form by disqus thread
-# - comment the line below if you want to stick with the default PHP contact form
-contact: static
-
-collections:
-  projects:
-
-# Color settings (hex-codes without the leading hash-tag)
-color:
-  primary: 62486e
-  secondary: a3a469
-  secondary-dark: 7c7347
-
 # Footer settings
 footer:
   copyright: Lauren Ball
-  location: Location
-  social: Find Me Elsewhere
-
-# Credits content
-credits: 'Theme foundation by <a href="http://startbootstrap.com">Start Bootstrap</a>'
 
 # Build settings
 markdown: kramdown
@@ -37,11 +17,6 @@ permalink: pretty
 
 #for posts
 defaults:
-  - scope:
-      path: ""
-      type: "projects"
-    values:
-      permalink: ""
   - scope:
       path: ""
       type: "posts"

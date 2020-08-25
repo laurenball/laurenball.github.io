@@ -2,18 +2,23 @@
 title: Blog
 layout: default
 ---
-<section id='blog' class='post'>
-  <div class='container'>
-    <div class='row'>
-      {% for post in site.posts %}
-        <div class="panel panel-default">
-          <div class="panel-heading panel-title">{{ post.title }}</div>
-          <div class="panel-body">
-            <p>{{ post.excerpt }}</p>
-            <a href="{{ post.url }}" class="btn btn-primary">View Post</a>
-          </div>
-        </div>
-      {% endfor %}
+{% for post in site.posts %}
+<div class="uk-card uk-card-default uk-margin-medium uk-padding-large">
+  <div class="uk-card-header">
+    <div class="uk-grid-small uk-flex-middle" uk-grid>
+      <div class="uk-width-expand">
+        <h3 class="uk-card-title uk-margin-remove-bottom">{{ post.title }}</h3>
+        <p class="uk-text-meta uk-margin-remove-top">
+          Posted {{ post.date | date: '%B %d, %Y' }}
+        </p>
+      </div>
     </div>
   </div>
-</section>
+  <div class="uk-card-body">
+    <p>{{ post.excerpt }}</p>
+  </div>
+  <div class="uk-card-footer">
+    <a href="{{ post.url }}" class="uk-button uk-button-text">View Post</a>
+  </div>
+</div>
+{% endfor %}

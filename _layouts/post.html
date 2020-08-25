@@ -1,15 +1,17 @@
 ---
 layout: default
 ---
-<section id='post' class='post'>
-  <div class='container'>
-    <div class='row'>
-      <div class='page-header'>
-        <h3>{{ page.title }}</h3>
-        <hr>
-      </div>
-      {{ content }}
+<article class="uk-article uk-padding-large">
+  <h1 class="uk-article-title"><a class="uk-link-reset" href="">{{ page.title }}</a></h1>
+  <p class="uk-article-meta">
+    Posted {{ page.date | date: '%B %d, %Y' }}
+  </p>
+
+  {{ content }}
+  <div class="uk-grid-small uk-child-width-auto" uk-grid>
+    <div>
+      <a class="uk-button uk-button-text" href="/blog">Back to Blog</a>
     </div>
   </div>
-</section>
 
+</article>
