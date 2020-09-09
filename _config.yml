@@ -15,6 +15,9 @@ footer:
 markdown: kramdown
 permalink: pretty
 
+sass:
+  sass_dir: _sass
+
 #for posts
 defaults:
   - scope:
