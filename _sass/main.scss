@@ -1,3 +1,5 @@
+@import 'geocities';
+
 // sticky footer
 html, body {
     height:100%;
@@ -11,16 +13,10 @@ html, body {
     display: block;
 }
 
-// geocities mode toggle button
-#geocities-toggle {
-  button {
-    border: none;
-    background: none;
-    cursor: pointer;
-  }
+#header-main {
+  background-image: url('../img/discovery_park.png');
+}
 
-  img {
-    max-height: 40px;
-    max-width: 40px;
-  }
+#projects-main {
+  background-image: url('../img/trees.png');
 }
