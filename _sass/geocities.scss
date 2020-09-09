@@ -42,4 +42,22 @@
     color: MediumPurple;
     padding: 50px;
   }
+
+  .uk-card {
+    border-style: ridge;
+    border-width: 5px;
+    border-color: orange;
+  }
+  .uk-card-footer {
+    border: none;
+  }
+
+  // hide profile image
+  .geocities-hidden {
+    display: none;
+  }
+
+  .geocities-img {
+    display: block;
+  }
 }
