@@ -16,4 +16,5 @@ In a seemingly unrelated side-note, I have also recently begun my first ever Pok
 Something that *is* giving me some trouble in an otherwise definitely-going-very-well-don't-worry-about-it run of this beloved children's game is keeping track of which Pokemon I have encountered and on which routes,
 which is something that is fundamentally required of playing this particular bastardization of Pokemon.
 
+{% include embeded_image.html url="/assets/img/posts/2021-02-11-nuzlocke-tracker/goodtime.png" description="The calm assurance of someone having a great time" %}
 
