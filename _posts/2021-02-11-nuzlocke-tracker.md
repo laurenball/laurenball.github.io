@@ -24,7 +24,7 @@ Currently, this is built using React, Bootstrap for UI, and [pokedex-promise-2](
 
 There isn't much so far, just a region selector and a table view that lists all of the named areas within a region.
 
-{% include embeded_image.html url="/assets/img/posts/2021-02-11-nuzlocke-tracker/tracker.png" description="mm, raw data" %}
+{% include embeded_image.html url="/assets/img/posts/2021-02-11-nuzlocke-tracker/tracker.png" description="" %}
 
 The basic interface will include, per region:
   - a list of all locations within the region
@@ -32,18 +32,10 @@ The basic interface will include, per region:
   - a place to note the name of aforementioned Pokemon
   - a place to denote whether that Pokemon is still in this plane of existence (whether or not the pokemon has been released, per the rules of the challenge)
 
-I've paused on this for now because of a snag I've hit with the API (or, possibly, with my understanding of how the API data is populated).
-From a pure usability standpoint, it makes sense to me that the user should only be allowed to select Pokemon that are able to be encountered in a particular area for that area's Pokemon. I could see
-this being something that is toggleable as a future update (for randomizer runs), but for now, I would expect this to be scoped accordingly.
+I've paused on this for now because of a snag I've hit with the API (or, possibly, with my understanding of how the API data is populated), but I'm hoping to outline the details of that
+and what steps (if any!) I'm taking to resolve it when I'm out of those specific woods.
 
-Based on the API documentation, there is a way to get encounter information at the granularity level that I need by querying for `Location` and then `LocationArea` within that location.
-`LocationArea` has a `pokemon_encounters` key that will list all of the possible Pokemon encounters within a sub-area of a location, meaning that if you combine every `LocationArea`'s encounters into
-a single array, you would have a list of every possible encounter within a given `Location`, even if it is a little convoluted.
-The snag that I'm hitting is that it seems like there are no `LocationArea`s defined for ANY locations within the Alola region, and there are no `Location`s defined at all within Galar.
-
-I'm planning to poke around with the API source code a little more to see if this is something I can help fix or if I'm going to have to give up my dream of scoped encounters :cry:
-
-Anyway, I think this is a really nice toy project because the MVP is so straighforward but there's a lot of room for improvement and I feel like there's potential to make a genuinely usable, dynamic tool.
+This is a really nice toy project because the MVP is so straighforward but there's a lot of room for improvement and I feel like there's potential to make a genuinely usable, dynamic tool.
 After completing the features above, I'd like to add:
   - JSON imports and exports for moving data between sessions
   - [react-select](https://react-select.com/home) integration for easier dropdown selection
